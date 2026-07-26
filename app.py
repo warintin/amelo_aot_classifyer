@@ -8,7 +8,7 @@ import numpy as np
 @st.cache_resource
 def load_model():
     return keras.models.load_model(
-        "oral_pathology_model_tf215.h5",
+        "amelo_aot_histo_image_classification.h5",
         compile=False
     )
 
