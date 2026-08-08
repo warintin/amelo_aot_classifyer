@@ -286,7 +286,7 @@ unsafe_allow_html=True
 def load_model():
 
     model = keras.models.load_model(
-        "oral_pathology_model_tf215.h5",
+        "amelo_aot_histo_image_classification.h5",
         compile=False
     )
 
